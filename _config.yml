@@ -1,5 +1,8 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
+title: Foxfire Theme
+description: A theme for the Foxfire Blog.
 show_downloads: true
 google_analytics:
 theme: foxfire-theme
+
+gems:
+  - jekyll-seo-tag
