@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-  s.name          = 'jekyll-theme-hacker'
-  s.version       = '0.1.1'
+  s.name          = 'foxfire-theme'
+  s.version       = '0.1.0'
   s.license       = 'CC0-1.0'
-  s.authors       = ['Jason Costello', 'GitHub, Inc.']
-  s.email         = ['opensource+jekyll-theme-hacker@github.com']
+  s.authors       = ['Sasha Elaine Fox']
+  s.email         = ['sashanullptr@gmail.com']
   s.homepage      = 'https://github.com/pages-themes/hacker'
-  s.summary       = 'Hacker is a Jekyll theme for GitHub Pages'
+  s.summary       = 'A fork of the Hacker theme for the Foxfire Blog.'
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
