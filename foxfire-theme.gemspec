@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.license       = 'CC0-1.0'
   s.authors       = ['Sasha Elaine Fox']
   s.email         = ['sashanullptr@gmail.com']
-  s.homepage      = 'https://github.com/pages-themes/hacker'
+  s.homepage      = 'https://sashanullptr.github.io/Foxfire-Theme/'
   s.summary       = 'A fork of the Hacker theme for the Foxfire Blog.'
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
