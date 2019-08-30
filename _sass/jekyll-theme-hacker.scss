@@ -151,14 +151,18 @@ blockquote {
 
 /* Adjusted to give override background and text colour */
 .highlight pre, pre, .highlight .hll {
-  background-color: #49483E;
-  border: 1px solid #ccc;
-  padding: 6px 10px;
-  border-radius: 3px;
-  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  font-size: 16px;
+  color: #b5e853;
+  border-radius: 2px;
+  word-wrap: normal;
+  overflow: auto;
+  overflow-y: hidden;
 }
 
-pre {
+.gist pre {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
