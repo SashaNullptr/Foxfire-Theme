@@ -159,7 +159,15 @@ blockquote {
 }
 
 pre {
-  color: #515151;
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  font-size: 16px;
+  color: #b5e853;
+  border-radius: 2px;
+  word-wrap: normal;
+  overflow: auto;
+  overflow-y: hidden;
 }
 
 /* Highlights taken from https://gist.github.com/asaaki/1007420  for Monokai theme */
@@ -221,18 +229,6 @@ pre {
 .vg                { color: #f8f8f2 }                            /* Name.Variable.Global        */
 .vi                { color: #f8f8f2 }                            /* Name.Variable.Instance      */
 .il                { color: #ae81ff }                            /* Literal.Number.Integer.Long */
-
-// pre {
-//   background: rgba(0, 0, 0, 0.9);
-//   border: 1px solid rgba(255, 255, 255, 0.15);
-//   padding: 10px;
-//   font-size: 16px;
-//   color: #b5e853;
-//   border-radius: 2px;
-//   word-wrap: normal;
-//   overflow: auto;
-//   overflow-y: hidden;
-// }
 
 // code.highlighter-rouge {
 //   background: rgba(0,0,0,0.9);
