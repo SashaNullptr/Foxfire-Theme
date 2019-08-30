@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'foxfire-theme'
-  s.version       = '0.2.0'
+  s.version       = '0.2.1'
   s.license       = 'CC0-1.0'
   s.authors       = ['Sasha Elaine Fox']
   s.email         = ['sashanullptr@gmail.com']
