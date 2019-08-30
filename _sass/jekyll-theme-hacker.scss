@@ -186,10 +186,9 @@ td {
 }
 
 hr {
-  color: #b5e853;
-  background-color: #fff;
-  opacity: 0.5;
-  box-shadow: 0px 5px 10px 2px #0ff;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #f0f, #0ff);
 }
 
 /* Buttons
